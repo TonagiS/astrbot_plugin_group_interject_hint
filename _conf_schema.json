@@ -1,0 +1,28 @@
+{
+  "enable": {
+    "description": "启用群聊插话提示头",
+    "type": "bool",
+    "default": true
+  },
+  "groups": {
+    "description": "生效的群（群号列表，留空=所有群）",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "only_for_personas": {
+    "description": "只对这些人格生效（在 system prompt 里出现任意一个关键字；留空=所有人格）",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "hint": {
+    "description": "追加到 system prompt 末尾的提示词（留空用内置默认文案）",
+    "type": "text",
+    "default": ""
+  }
+}

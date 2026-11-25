@@ -1,0 +1,12 @@
+name: "astrbot_plugin_group_interject_hint"
+display_name: "群聊插话提示头"
+author: "Tonagi"
+version: "1.0.0"
+desc: "给核心主动回复通路加提示头：群消息没 @、没被唤醒时，告诉模型这是自己在插话，不是对方在跟自己说话。"
+repo: "https://github.com/TonagiS/astrbot_plugin_group_interject_hint"
+astrbot_version: ">=4.24.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 群聊
+  - 提示词
